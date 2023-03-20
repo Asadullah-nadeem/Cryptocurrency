@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                 // in this method passing headers as
                 // key along with value as API keys.
                 HashMap<String, String> headers = new HashMap<>();
-                headers.put("X-CMC_PRO_API_KEY", "Enter your API key");
+                headers.put("X-CMC_PRO_API_KEY", "Enter your APIkey");
                 // at last returning headers
                 return headers;
             }
