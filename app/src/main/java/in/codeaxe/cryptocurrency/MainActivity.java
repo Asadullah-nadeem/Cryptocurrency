@@ -138,14 +138,14 @@ public class MainActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     // handling json exception.
                     e.printStackTrace();
-                    Toast.makeText(MainActivity.this, "Something went amiss. Please try again later", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please try again later", Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 // displaying error response when received any error.
-                Toast.makeText(MainActivity.this, "Something went amiss. Please try again later", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Please try again later", Toast.LENGTH_SHORT).show();
             }
         }) {
             @Override
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                 // in this method passing headers as
                 // key along with value as API keys.
                 HashMap<String, String> headers = new HashMap<>();
-                headers.put("X-CMC_PRO_API_KEY", "Enter your APIkey");
+                headers.put("X-CMC_PRO_API_KEY", "Enter your API key");
                 // at last returning headers
                 return headers;
             }
