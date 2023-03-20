@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="#1947E5"
     tools:context=".MainActivity">
 
     <!--edit text for searching our currency-->
@@ -15,6 +15,7 @@
         android:layout_margin="8dp"
         android:focusable="auto"
         android:hint="Search Currency"
+        android:fontFamily="@font/autourone_regular"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 

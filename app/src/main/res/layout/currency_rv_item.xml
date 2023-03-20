@@ -23,6 +23,7 @@
             android:layout_margin="2dp"
             android:layout_toStartOf="@id/idTVRate"
             android:layout_toLeftOf="@id/idTVRate"
+            android:fontFamily="@font/autourone_regular"
             android:padding="3dp"
             android:text="Symbol"
             android:textColor="@color/white"
@@ -36,6 +37,7 @@
             android:layout_below="@id/idTVSymbol"
             android:layout_margin="2dp"
             android:padding="3dp"
+            android:fontFamily="@font/autourone_regular"
             android:text="Name"
             android:textColor="@color/white"
             android:textSize="13sp" />
@@ -52,6 +54,7 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="3dp"
             android:layout_marginRight="3dp"
+            android:fontFamily="@font/autourone_regular"
             android:layout_marginBottom="2dp"
             android:padding="3dp"
             android:text="123456"
